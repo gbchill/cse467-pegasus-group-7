@@ -1,0 +1,42 @@
+# Log Patterns Indicating Potential Pegasus Activity
+# Format: regex_pattern|severity|description
+# Severity levels: CRITICAL, HIGH, MEDIUM, LOW
+
+# Exploitation Indicators
+.*FORCEDENTRY.*|CRITICAL|Potential FORCEDENTRY exploit indicator
+.*NSO.*kernel.*|CRITICAL|NSO Group kernel-level activity
+.*pegasus.*|CRITICAL|Direct Pegasus mention in logs
+.*jailbreak.*unexpected.*|HIGH|Unexpected jailbreak activity
+.*kernel.*panic.*heap.*|HIGH|Kernel panic possibly related to exploitation
+
+# Communication Patterns
+.*https.*\.onion.*|MEDIUM|Tor hidden service connection (unusual for mobile)
+.*unusual.*vpn.*|MEDIUM|Unusual VPN connection pattern
+.*certificate.*error.*ignored.*|MEDIUM|TLS certificate validation bypassed
+
+# Process Injection
+.*process.*injection.*|HIGH|Process injection detected
+.*dyld.*inject.*|HIGH|Dynamic library injection (iOS)
+.*ptrace.*|MEDIUM|Process tracing activity
+
+# Memory Corruption
+.*buffer.*overflow.*|HIGH|Buffer overflow detected
+.*heap.*corruption.*|HIGH|Heap corruption detected
+.*use.*after.*free.*|HIGH|Use-after-free vulnerability indicator
+
+# Anti-Forensics
+.*log.*deleted.*system.*|MEDIUM|System logs deleted
+.*syslog.*cleared.*|MEDIUM|Syslog cleared unexpectedly
+
+# iMessage Exploitation
+.*imagent.*crash.*|HIGH|iMessage agent crash (potential exploit)
+.*CoreGraphics.*crash.*|HIGH|CoreGraphics crash (FORCEDENTRY indicator)
+.*IMTranscoderAgent.*exception.*|HIGH|iMessage transcoder exception
+
+# Network Anomalies
+.*connect.*fail.*too.*many.*|MEDIUM|Excessive connection failures (possible C2 attempts)
+.*dns.*timeout.*repeated.*|MEDIUM|Repeated DNS timeouts (possible C2 activity)
+
+# Note: These patterns are examples for educational purposes
+# Production IOC systems use more sophisticated pattern matching
+# False positives are common - manual verification required

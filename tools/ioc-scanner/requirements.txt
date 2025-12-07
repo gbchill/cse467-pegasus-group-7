@@ -1,0 +1,17 @@
+# Pegasus IOC Scanner - No External Dependencies Required
+#
+# This tool uses only Python 3 standard library modules:
+# - argparse (command-line argument parsing)
+# - re (regular expression matching)
+# - sys (system functions)
+# - json (JSON export)
+# - pathlib (path handling)
+# - datetime (timestamps)
+# - typing (type hints)
+#
+# No pip install needed!
+# Just run: python3 scanner.py --log <logfile>
+
+# Optional: If you want to use the real MVT instead of this educational tool
+# Uncomment the line below and run: pip3 install -r requirements.txt
+# mvt>=2.0.0

@@ -1,0 +1,26 @@
+# Suspicious Process Names Associated with Pegasus
+# Source: Public forensic reports and security research
+# Last Updated: December 2025
+#
+# Format: one process name per line, comments start with #
+
+# Android Pegasus Indicators
+bridgekeeper
+omnidaemon
+/system/xbin/bogus
+
+# iOS Process Indicators
+# Note: iOS Pegasus typically operates within legitimate processes
+# These are historical or theoretical indicators
+
+# Generic Suspicious Patterns
+datausage
+commserver
+bridged
+accountsd
+
+# Note: Many of these may also appear in legitimate contexts
+# Cross-reference with other indicators before concluding compromise
+#
+# For comprehensive IOC list, see:
+# https://github.com/AmnestyTech/investigations

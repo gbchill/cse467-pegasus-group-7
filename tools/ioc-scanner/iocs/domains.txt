@@ -1,0 +1,35 @@
+# Known NSO Group / Pegasus C2 Domains
+# Source: Citizen Lab, Amnesty International, public research
+# Last Updated: December 2025
+#
+# WARNING: Some domains may have been decommissioned or seized
+# Presence of these domains in logs indicates potential Pegasus activity
+#
+# Format: one domain per line, comments start with #
+
+# Early Pegasus Infrastructure (2016-2018)
+infections.pegasusinfections.com
+mobileanalytics.cloud
+cloud-diagnose.com
+validation-check.com
+laxbrodstmedia.com
+usedirectory.com
+
+# Known NSO C2 Infrastructure
+tocsystem.com
+timecheck.systems
+iphonesetup.com
+phonecheck.online
+cloud-check.services
+diagnostic-update.com
+
+# Domain Pattern Examples (partial matches)
+data-sync.org
+system-check.net
+device-health.com
+
+# Note: This list is for educational purposes
+# Real IOC databases are maintained by:
+# - Amnesty Tech: https://github.com/AmnestyTech/investigations
+# - Citizen Lab research publications
+# - Security vendor threat intelligence feeds
