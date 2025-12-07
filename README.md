@@ -226,8 +226,12 @@ For complete references, see [docs/05-technical-reference/references.md](docs/05
 
 This is an academic project for CSE 467. Contributions are limited to team members:
 
+- Ayush Singh
+- Chaitanya Singh
+- Cyler Minkus
+- Allan Binu
+- Nirek Shah
 - George Badulescu
-- [Additional team members]
 
 For questions or feedback, please contact the course instructor or teaching assistants.
 
