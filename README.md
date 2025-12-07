@@ -6,7 +6,7 @@ A comprehensive educational resource for understanding, detecting, and defending
 
 **Course:** CSE 467 - Data Security
 **Institution:** Arizona State University
-**Team:** Group 7 - Ayush Singh, Chaitanya Singh, Cyler Minkus, Allan Binu, Nirek Shah, George Badulescu 
+**Team:** Group 7 - Ayush Singh, Chaitanya Singh, Cyler Minkus, Allan Binu, Nirek Shah, George Badulescu
 **Academic Year:** 2025
 
 ## Overview
